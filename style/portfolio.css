@@ -1,0 +1,116 @@
+
+.work-sans-normal {
+  font-family: "Work Sans", serif;
+  font-optical-sizing: auto;
+  font-variation-settings:'width' 100;
+  font-style: normal;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.nav title{
+    font-weight: 800;
+    font-size:45px;
+    color:FD6E0A;
+}
+.text-primary{
+    color:#FD6E0A;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    
+}
+nav ul li{
+    list-style: none;
+    margin-right: 20px;
+
+}
+nav li a{
+    text-decoration: none;
+    font-size: 20px;
+}
+dark-2{
+    color: #474747;
+}
+.btn-primary{
+    background-color: #FD6E0A;
+    font-weight: bold;
+    font-size: 20px;
+    color:wheat;
+    padding: 18px 35px;
+    border-radius: 5px;
+    border: none;
+    
+
+}
+
+/*banner-style*/
+.banner{
+    display:flex;
+    justify-content: space-around;
+    margin: 0 35px 0 200px;
+}
+.banner-greeting{
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+}
+.banner-title{
+    font-weight: bold;
+    font-size: 85px;
+
+}
+.banner-profile-pic{
+    width:580px;
+}
+
+.banner-content{
+    max-width:580;
+}
+ .header{
+    background-image: url('../images/developer.png'),url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position:top left,bottom right;
+ }
+
+ /*About Me*/
+ .section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+
+ }
+ .Section-description{
+
+    font-size: 18px;
+    color:#181818
+ }
+ .about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+ }
+
+ .secondary-bg{
+    background-color: #FFF8F3;
+
+ }
+ main{
+    max-width: 1140px;
+    margin:0 auto;
+ }
+
+ .about-items{
+    display: flex;
+    justify-content: space-around;
+ }
+
+ .item-description{
+    font-weight: 600;
+ }
